@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lavender; /* Set lavender background color */
+}
+
+.container {
+    width: 90%; /* Adjusted width to fit within the page */
+    max-width: 400px; /* Limit maximum width */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f8ff; /* Light blue color for the form */
+}
+
+.signup-form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group select {
+    appearance: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 20px 30px; /* Increased padding for larger button */
+    cursor: pointer;
+    border-radius: 10px; /* Increased border radius for a more rounded button */
+    font-size: 24px; /* Increased font size for the button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+.signup-form p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
